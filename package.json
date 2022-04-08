@@ -2,6 +2,11 @@
   "name": "amazon-clone",
   "version": "0.1.0",
   "private": true,
+  
+    "engines": {
+      "yarn": "0.23.2"
+    },
+  
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.2",
@@ -48,4 +53,5 @@
       "last 1 safari version"
     ]
   }
+  
 }
