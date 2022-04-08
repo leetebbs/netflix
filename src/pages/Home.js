@@ -6,7 +6,7 @@ import {
   ConnectButton,
   Icon,
   TabList,
-  Tab,
+  Tab, 
   Button,
   Modal,
   useNotification,
@@ -14,12 +14,14 @@ import {
 import { movies } from "../helpers/library";
 import { useState } from "react";
 import { useMoralis } from "react-moralis";
+var id = Math.floor(Math.random() * 10)
 
 const Home = () => {
   const [visible, setVisible] = useState(false);
   const [selectedFilm, setSelectedFilm] = useState();
   const { isAuthenticated, Moralis, account } = useMoralis();
   const [myMovies, setMyMovies] = useState();
+  
 
   useEffect(() => {
     async function fetchMyList() {
@@ -78,15 +80,19 @@ const Home = () => {
         <TabList defaultActiveKey={1} tabStyle="bar">
           <Tab tabKey={1} tabName={"Movies"}>
             <div className="scene">
-              <img src={movies[0].Scene} className="sceneImg"></img>
-              <img className="sceneLogo" src={movies[0].Logo}></img>
-              <p className="sceneDesc">{movies[0].Description}</p>
+              <img src={movies[id].Scene} className="sceneImg"></img>
+              <img className="sceneLogo" src={movies[id].Logo}></img>
+              <p className="sceneDesc">{movies[id].Description}</p>
               <div className="playButton">
                 <Button
                   icon="chevronRightX2"
                   text="Play"
                   theme="secondary"
                   type="button"
+                  onClick={() => {
+                    setSelectedFilm(movies[id]);
+                    setVisible(true);
+                  }}
                 />
                 <Button
                   icon="plus"

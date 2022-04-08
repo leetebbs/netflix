@@ -1,7 +1,7 @@
 let fs = require("fs");
 let axios = require("axios");
 
-let media = ["secretVideo.mp4"];
+let media = ["batman.mp4"];
 let ipfsArray = [];
 let promises = [];
 

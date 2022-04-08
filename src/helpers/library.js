@@ -28,6 +28,8 @@ import ted from "../images/ted.png";
 import amerp from "../images/amerp.png";
 import Outsiders from "../images/Outsiders.png";
 import NftMarket from "../images/NftMarket.png";
+import nftMarketplace from "../images/Marketpplace.png"
+import darkKnight from "../images/dark-knight.jpg"
 
 export const movies = [
   {
@@ -59,7 +61,7 @@ export const movies = [
     Movie: "https://ipfs.moralis.io:2053/ipfs/QmcMQsJ44XnV5nRhgUuh5UFtkyhz8tPJVyQwEkzeJziSsa/media/0",
     Thumnbnail: Outsiders,
     Scene: Outsiders,
-    Logo: NftMarket,
+    Logo: nftMarketplace,
     Name: "Outsiders Marketplace",
     Description: "The Outsiders Marketplace built for the Avalache morlis hackathon",
     Genre: "Tech",
@@ -80,11 +82,11 @@ export const movies = [
     Duration: "1min 2sec",
   },
   {
-    Movie: "",
-    Thumnbnail: wolf,
-    Scene: "",
+    Movie: "https://ipfs.io/ipfs/QmZVpAEuvB2AE5zTLetZMfoQcFzdHeEhDzMNHtJKnKxHLQ",
+    Thumnbnail: darkKnight,
+    Scene: darkKnight,
     Logo: "",
-    Name: "Wolf Of Wallstreet",
+    Name: "The Dark Knight",
     Description: "",
     Genre: "",
     Actors: "",
@@ -94,7 +96,7 @@ export const movies = [
   {
     Movie: "",
     Thumnbnail: mrs,
-    Scene: "",
+    Scene: mrs,
     Logo: "",
     Name: "Mr and Mrs Smith",
     Description: "",
@@ -118,7 +120,7 @@ export const movies = [
   {
     Movie: "",
     Thumnbnail: hob,
-    Scene: "",
+    Scene: hob,
     Logo: "",
     Name: "Hobbit",
     Description: "",
@@ -130,7 +132,7 @@ export const movies = [
   {
     Movie: "",
     Thumnbnail: shrek,
-    Scene: "",
+    Scene: shrek,
     Logo: "",
     Name: "",
     Description: "",
@@ -142,7 +144,7 @@ export const movies = [
   {
     Movie: "",
     Thumnbnail: reven,
-    Scene: "",
+    Scene: reven,
     Logo: "",
     Name: "",
     Description: "",
@@ -154,7 +156,7 @@ export const movies = [
   {
     Movie: "",
     Thumnbnail: imit,
-    Scene: "",
+    Scene: imit,
     Logo: "",
     Name: "",
     Description: "",
@@ -166,7 +168,7 @@ export const movies = [
   {
     Movie: "",
     Thumnbnail: topgu,
-    Scene: "",
+    Scene: topgu,
     Logo: "",
     Name: "",
     Description: "",
@@ -178,7 +180,7 @@ export const movies = [
   {
     Movie: "",
     Thumnbnail: lucy,
-    Scene: "",
+    Scene: lucy,
     Logo: "",
     Name: "",
     Description: "",
@@ -190,7 +192,7 @@ export const movies = [
   {
     Movie: "",
     Thumnbnail: bayw,
-    Scene: "",
+    Scene: bayw,
     Logo: "",
     Name: "",
     Description: "",
@@ -202,7 +204,7 @@ export const movies = [
   {
     Movie: "",
     Thumnbnail: tomb,
-    Scene: "",
+    Scene: tomb,
     Logo: "",
     Name: "",
     Description: "",
@@ -214,7 +216,7 @@ export const movies = [
   {
     Movie: "",
     Thumnbnail: amaz,
-    Scene: "",
+    Scene: amaz,
     Logo: "",
     Name: "",
     Description: "",
@@ -226,7 +228,7 @@ export const movies = [
   {
     Movie: "",
     Thumnbnail: bigs,
-    Scene: "",
+    Scene: bigs,
     Logo: "",
     Name: "",
     Description: "",
@@ -238,7 +240,7 @@ export const movies = [
   {
     Movie: "",
     Thumnbnail: secona,
-    Scene: "",
+    Scene: secona,
     Logo: "",
     Name: "",
     Description: "",
@@ -250,7 +252,7 @@ export const movies = [
   {
     Movie: "",
     Thumnbnail: ted,
-    Scene: "",
+    Scene: ted,
     Logo: "",
     Name: "",
     Description: "",
@@ -262,7 +264,7 @@ export const movies = [
   {
     Movie: "",
     Thumnbnail: amerp,
-    Scene: "",
+    Scene: amerp,
     Logo: "",
     Name: "",
     Description: "",
